@@ -66,7 +66,7 @@ git reset --soft <id-commit>
 git reset <id-commit>
 git reset --mixed <id-commit>
 
-# Va conserver les fichiers et modifications du working directory également...
+# Va supprimer les fichiers du dépot et du working directory également...
 git reset --hard <id-commit>
 
 # Syntaxe différente via l'utilisation de référence
