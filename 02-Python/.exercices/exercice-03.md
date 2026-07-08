@@ -1,4 +1,4 @@
-# Exercice Python #1 - Affichage d'un bonjour personnalisé
+# Exercice Python #3 - Nombre mystère
 
 ## Objectifs
 
