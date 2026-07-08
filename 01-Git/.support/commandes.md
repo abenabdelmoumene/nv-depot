@@ -32,6 +32,30 @@ git commit -m "Contenu du message"
 git commit -a
 ```
 
+## Dépot de l'historique des commits vers le remote
+
+```bash
+git push <remote-name> <branch-name>
+
+# Ajout du lien d'Upstream
+git push <remote-name> <branch-name>
+
+# Si lien d'Upstream déjà réalisé
+git push
+```
+
+## Récupération de l'historique des commits du remote
+
+```bash
+git fetch <remote-name> <branch-name>
+```
+
+## Synchronisation en local de l'historique des commits du remote
+
+```bash
+git pull <remote-name> <branch-name>
+```
+
 ## Vérifier le statut actuel de notre working directory et le comparer à l'historique Git
 
 ```bash
@@ -78,6 +102,9 @@ git reset HEAD~X
 
 ```bash
 git branch
+
+# Avec branches distantes
+git branch -a
 ```
 
 ## Création d'une nouvelle branche
@@ -97,4 +124,22 @@ git merge <branch-name>
 
 ```bash
 git rebase <commit-id | branch-name>
+```
+
+## Ajout d'un nouveau lien vers un dépot distant
+
+```bash
+git remote add <remote-name> <remote-url>
+```
+
+## Modification du lien vers un dépot distant
+
+```bash
+git remote set-url <remote-name> <remote-url>
+```
+
+## Récupération du lien vers un dépot distant
+
+```bash
+git remote get-url <remote-name> <remote-url>
 ```
