@@ -53,3 +53,19 @@ age = input("Veuillez entrer votre âge: ")
 print(f"{'NOM':<10}|{'PRENOM':<10}|{'AGE':<10}")
 print("-"*10 + "†" + "-"*10 + "†" + "-"*10)
 print(f"{nom:<10}|{prenom:<10}|{age:<10}")
+
+texte_aligne_gauche = f"|{'TEXTE':<10}|"
+texte_aligne_droite = f"|{'TEXTE':>10}|"
+texte_aligne_centre = f"|{'TEXTE':^10}|"
+
+print("=== MENU ===" +
+      "\n1. Element A" +
+      "\n2. Element A" +
+      "\n3. Element A" +
+      "\n4. Element A" +
+      "\n5. Element A")
+
+print("""=== MENU ===
+1. Element A
+2. Element B
+3. Element C""")
